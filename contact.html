@@ -206,18 +206,20 @@
 			<div class="row row-pb-md">
 				<div class="col-md-9 fh5co-widget">
 					<h3>Edvantagers</h3>
-					<p>Edvantagers, established in 2020, is a trusted leader in education consulting, providing personalized guidance for academic success and career fulfillment. Empowering students to navigate their educational journey with confidence and excellence</p>
+					<p>Edvantagers, established in 2020, is a trusted leader in education consulting, providing
+						personalized guidance for academic success and career fulfillment. Empowering students to
+						navigate their educational journey with confidence and excellence</p>
 				</div>
 				<div class="col-md-3 col-sm-4 col-xs-7 col-md-push-1 fh5co-widget">
 					<h3>Contact</h3>
 					<ul class="fh5co-footer-links">
-						<li><a href="#"><i class="fa fa-phone" aria-hidden="true"></i>
-								+91 88481 34975</a></li>
-						<li><a href="#"> <i class="fa fa-envelope" aria-hidden="true"></i>
+						<li><a href="tel:8848134975"><i class="fa fa-phone" aria-hidden="true"></i>
+								+91 88481 34975</a>,<a href="tel:7902259730">+91 7902259730</a><br><a href="tel:8590786411">+91 8590786411</a></li>
+						<li><a href="mailto:edvantagers@gmail.com"> <i class="fa fa-envelope" aria-hidden="true"></i>
 								edvantagers@gmail.com</a></li>
-						<li><a href="#"> <i class="fa fa-instagram" aria-hidden="true"></i>
+						<!-- <li><a href="#"> <i class="fa fa-instagram" aria-hidden="true"></i>
 								edvantagers
-							</a></li>
+							</a></li> -->
 						<!-- <li><a href="#">Teams</a></li> -->
 
 					</ul>
@@ -227,7 +229,8 @@
 					<ul class="fh5co-footer-links">
 						<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
 						<li><a href="#"> <i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-						<li><a href="https://www.instagram.com/edvantagers/"> <i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+						<li><a href="https://www.instagram.com/edvantagers/"> <i class="fa fa-instagram"
+									aria-hidden="true"></i></a></li>
 						<!-- <li><a href="#">Teams</a></li> -->
 
 					</ul>
@@ -235,7 +238,7 @@
 				<div class="col-md-2 col-sm-4 col-xs-6  fh5co-widget">
 					<h3>Bangalore</h3>
 					<p>Edvantagers study India & Abroad
-						Kothanur PO, Bengaluru, Karnataka 
+						Kothanur PO, Bengaluru, Karnataka
 					</p>
 				</div>
 				<div class="col-md-2 col-sm-4 col-xs-6 fh5co-widget">
@@ -265,7 +268,7 @@
 						Santhigramam, Thurakkal, Manjeri, Kerala
 					</p>
 				</div>
-				
+
 
 
 			</div>
@@ -274,8 +277,8 @@
 				<div class="col-md-12 text-center">
 					<p>
 						<small class="block">&copy; 2024 Edvantagers. All Rights Reserved.</small>
-						<small class="block">Designed by <a href="http://acmeflare.in"
-								target="_blank">Acmeflare</a> </small>
+						<small class="block">Designed by <a href="http://acmeflare.in" target="_blank">Acmeflare</a>
+						</small>
 					</p>
 				</div>
 			</div>
@@ -328,22 +331,6 @@
 		day: d.getDate(),
 		enableUtc: false
 	});
-</script>
-<script>
-const scriptURL = 'https://script.google.com/macros/s/AKfycbxZQAaq6S6LD8hT8NV5Yk5NCSnxkT7gpwkITF7EGKVRxGnUfyoP4GzR4Hbg_cFAqbum/exec'
-
-const form = document.forms['contact-form']
-const submitButton = document.querySelector('input[type="submit"]');
-
-
-form.addEventListener('submit', e => {
- e.preventDefault()
- submitButton.disabled = true;
- fetch(scriptURL, { method: 'POST', body: new FormData(form)})
- .then(response => alert("Thank you! your form is submitted successfully." ))
- .then(() => { window.location.reload(); })
- .catch(error => console.error('Error!', error.message))
-})
 </script>
 </body>
 
